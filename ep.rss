@@ -1,0 +1,1379 @@
+--- !ruby/object:RSS::Rss
+parent: 
+converter: 
+do_validate: true
+channel: !ruby/object:RSS::Rss::Channel
+  parent: 
+  converter: 
+  do_validate: true
+  title: 'EarthPorn: Mother Nature in all of her succulent beauty.'
+  link: http://www.reddit.com/r/EarthPorn/
+  description: Natural Landscapes, Mother Nature in all of her succulent beauty.
+  language: 
+  copyright: 
+  managingEditor: 
+  webMaster: 
+  rating: 
+  pubDate: 
+  lastBuildDate: 
+  docs: 
+  cloud: 
+  skipDays: 
+  skipHours: 
+  image: !ruby/object:RSS::Rss::Channel::Image
+    parent: 
+    converter: 
+    do_validate: true
+    url: http://d.thumbs.redditmedia.com/VLDCcDBfHZ01d4m-.png
+    title: 'EarthPorn: Mother Nature in all of her succulent beauty.'
+    link: http://www.reddit.com/r/EarthPorn/
+    width: 
+    height: 
+    description: 
+  textInput: 
+  generator: 
+  ttl: 
+  itunes_image: 
+  itunes_owner: 
+  itunes_new_feed_url: 
+  itunes_author: 
+  itunes_block: 
+  itunes_explicit: 
+  itunes_keywords: 
+  itunes_subtitle: 
+  itunes_summary: 
+  item:
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: An enchanted creature dances beneath the icy waters in Lofoten, Norway
+      [533×800] Photo by Arild Heitmann
+    link: http://www.reddit.com/r/EarthPorn/comments/2aycgh/an_enchanted_creature_dances_beneath_the_icy/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2aycgh/an_enchanted_creature_dances_beneath_the_icy/"><img
+      src="http://a.thumbs.redditmedia.com/uATPlx_GmZDpw-Av.jpg" alt="An enchanted
+      creature dances beneath the icy waters in Lofoten, Norway [533×800] Photo by
+      Arild Heitmann" title="An enchanted creature dances beneath the icy waters in
+      Lofoten, Norway [533×800] Photo by Arild Heitmann" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/DaHitcha"> DaHitcha </a> <br/> <a href="http://ppcdn.500px.org/67420637/5ad4e72ee4f3382e56ee5515eb1d1785590cdcaa/5.jpg">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2aycgh/an_enchanted_creature_dances_beneath_the_icy/">[72
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 09:55:03.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2aycgh/an_enchanted_creature_dances_beneath_the_icy/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Probably the most beautiful picture I'll ever take... Vancouver,BC in the
+      distance from the Diez Vistas Trail [4912x3264]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ax9su/probably_the_most_beautiful_picture_ill_ever_take/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ax9su/probably_the_most_beautiful_picture_ill_ever_take/"><img
+      src="http://b.thumbs.redditmedia.com/DQxLbu_9VlLr1p7A.jpg" alt="Probably the
+      most beautiful picture I'll ever take... Vancouver,BC in the distance from the
+      Diez Vistas Trail [4912x3264]" title="Probably the most beautiful picture I'll
+      ever take... Vancouver,BC in the distance from the Diez Vistas Trail [4912x3264]"
+      /></a> </td><td> submitted by <a href="http://www.reddit.com/user/danp55"> danp55
+      </a> <br/> <a href="http://i.imgur.com/o9YljxY.jpg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ax9su/probably_the_most_beautiful_picture_ill_ever_take/">[93
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 23:44:48.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ax9su/probably_the_most_beautiful_picture_ill_ever_take/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Went to Crater Lake - couldn't fathom how beautiful and massive it is (that
+      white speck is a boat!) We always see winter pics of CL in this sub, how about
+      a summer pic? [OC] [4608x3072]
+    link: http://www.reddit.com/r/EarthPorn/comments/2awf8q/went_to_crater_lake_couldnt_fathom_how_beautiful/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2awf8q/went_to_crater_lake_couldnt_fathom_how_beautiful/"><img
+      src="http://a.thumbs.redditmedia.com/NqEYqr3C15P2BUO8.jpg" alt="Went to Crater
+      Lake - couldn't fathom how beautiful and massive it is (that white speck is
+      a boat!) We always see winter pics of CL in this sub, how about a summer pic?
+      [OC] [4608x3072]" title="Went to Crater Lake - couldn't fathom how beautiful
+      and massive it is (that white speck is a boat!) We always see winter pics of
+      CL in this sub, how about a summer pic? [OC] [4608x3072]" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/kristiwashere"> kristiwashere </a> <br/>
+      <a href="http://imgur.com/nBgZRhl">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2awf8q/went_to_crater_lake_couldnt_fathom_how_beautiful/">[289
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 18:25:11.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2awf8q/went_to_crater_lake_couldnt_fathom_how_beautiful/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: I took this picture in Yellowstone National Park last month. Grand Canyon
+      of the Yellowstone [2368x3200]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayl50/i_took_this_picture_in_yellowstone_national_park/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayl50/i_took_this_picture_in_yellowstone_national_park/"><img
+      src="http://a.thumbs.redditmedia.com/bT4FYd32Rurp9Y9H.jpg" alt="I took this
+      picture in Yellowstone National Park last month. Grand Canyon of the Yellowstone
+      [2368x3200]" title="I took this picture in Yellowstone National Park last month.
+      Grand Canyon of the Yellowstone [2368x3200]" /></a> </td><td> submitted by <a
+      href="http://www.reddit.com/user/jevankovich"> jevankovich </a> <br/> <a href="http://imgur.com/c0woT8b">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2ayl50/i_took_this_picture_in_yellowstone_national_park/">[4
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 11:25:40.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayl50/i_took_this_picture_in_yellowstone_national_park/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Trolltunga – Norway [1500 x 1000]
+    link: http://www.reddit.com/r/EarthPorn/comments/2axtal/trolltunga_norway_1500_x_1000/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2axtal/trolltunga_norway_1500_x_1000/"><img
+      src="http://b.thumbs.redditmedia.com/KtR1BrPWwbnR90De.jpg" alt="Trolltunga –
+      Norway [1500 x 1000]" title="Trolltunga – Norway [1500 x 1000]" /></a> </td><td>
+      submitted by <a href="http://www.reddit.com/user/TomBangerer"> TomBangerer </a>
+      <br/> <a href="http://i.imgur.com/4wUUClS.jpg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2axtal/trolltunga_norway_1500_x_1000/">[10
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 04:33:33.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2axtal/trolltunga_norway_1500_x_1000/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: The Tetons in the winter (OC) [4068x3072]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayhqp/the_tetons_in_the_winter_oc_4068x3072/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayhqp/the_tetons_in_the_winter_oc_4068x3072/"><img
+      src="http://a.thumbs.redditmedia.com/qKSERS3S_RoxwOzR.jpg" alt="The Tetons in
+      the winter (OC) [4068x3072]" title="The Tetons in the winter (OC) [4068x3072]"
+      /></a> </td><td> submitted by <a href="http://www.reddit.com/user/j7a3e7"> j7a3e7
+      </a> <br/> <a href="http://i.imgur.com/I2RXxyh.jpg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayhqp/the_tetons_in_the_winter_oc_4068x3072/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 10:52:29.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayhqp/the_tetons_in_the_winter_oc_4068x3072/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Monterey, California (2560x1440)
+    link: http://www.reddit.com/r/EarthPorn/comments/2azif5/monterey_california_2560x1440/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azif5/monterey_california_2560x1440/"><img
+      src="http://b.thumbs.redditmedia.com/BrHPd029AnPATt8G.jpg" alt="Monterey, California
+      (2560x1440)" title="Monterey, California (2560x1440)" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/Avandra"> Avandra </a> <br/> <a href="http://imgur.com/00RdXRC">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2azif5/monterey_california_2560x1440/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 16:28:48.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azif5/monterey_california_2560x1440/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Palisades, South Dakota [2000x1500][OC]
+    link: http://www.reddit.com/r/EarthPorn/comments/2azie8/palisades_south_dakota_2000x1500oc/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azie8/palisades_south_dakota_2000x1500oc/"><img
+      src="http://a.thumbs.redditmedia.com/U-cXHswkwv3x23Wd.jpg" alt="Palisades, South
+      Dakota [2000x1500][OC]" title="Palisades, South Dakota [2000x1500][OC]" /></a>
+      </td><td> submitted by <a href="http://www.reddit.com/user/rufus510"> rufus510
+      </a> <br/> <a href="http://imgur.com/Z9u3Z5R">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2azie8/palisades_south_dakota_2000x1500oc/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 16:28:33.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azie8/palisades_south_dakota_2000x1500oc/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Grafton Loop Trail, Mahoosuc Mountains Maine (near East Baldpate summit)
+      [3072x2304] taken by me
+    link: http://www.reddit.com/r/EarthPorn/comments/2az3ww/grafton_loop_trail_mahoosuc_mountains_maine_near/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2az3ww/grafton_loop_trail_mahoosuc_mountains_maine_near/"><img
+      src="http://b.thumbs.redditmedia.com/x4pDKeIkjyk1RFyi.jpg" alt="Grafton Loop
+      Trail, Mahoosuc Mountains Maine (near East Baldpate summit) [3072x2304] taken
+      by me" title="Grafton Loop Trail, Mahoosuc Mountains Maine (near East Baldpate
+      summit) [3072x2304] taken by me" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/iamthecheezit">
+      iamthecheezit </a> <br/> <a href="http://i.imgur.com/xIfMwVQ.jpg">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2az3ww/grafton_loop_trail_mahoosuc_mountains_maine_near/">[2
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 14:16:11.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2az3ww/grafton_loop_trail_mahoosuc_mountains_maine_near/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Glencoe, Scotland on a rare sunny day [2614 × 1122].
+    link: http://www.reddit.com/r/EarthPorn/comments/2aukb0/glencoe_scotland_on_a_rare_sunny_day_2614_1122/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2aukb0/glencoe_scotland_on_a_rare_sunny_day_2614_1122/"><img
+      src="http://b.thumbs.redditmedia.com/m9ZdsjXQMT-wYEgO.jpg" alt="Glencoe, Scotland
+      on a rare sunny day [2614 × 1122]." title="Glencoe, Scotland on a rare sunny
+      day [2614 × 1122]." /></a> </td><td> submitted by <a href="http://www.reddit.com/user/curiouslyoctarine">
+      curiouslyoctarine </a> <br/> <a href="http://i.imgur.com/cKqb747.jpg">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2aukb0/glencoe_scotland_on_a_rare_sunny_day_2614_1122/">[270
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 06:58:28.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2aukb0/glencoe_scotland_on_a_rare_sunny_day_2614_1122/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Yosemite Valley, California [2048 x 1442] by James Castle
+    link: http://www.reddit.com/r/EarthPorn/comments/2aun4n/yosemite_valley_california_2048_x_1442_by_james/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2aun4n/yosemite_valley_california_2048_x_1442_by_james/"><img
+      src="http://a.thumbs.redditmedia.com/x3whfUVBXLzFHTqR.jpg" alt="Yosemite Valley,
+      California [2048 x 1442] by James Castle" title="Yosemite Valley, California
+      [2048 x 1442] by James Castle" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/stengebt">
+      stengebt </a> <br/> <a href="http://ppcdn.500px.org/76742159/99972bcd2d9883b963e3737b9d6d36ffd2367b59/2048.jpg">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2aun4n/yosemite_valley_california_2048_x_1442_by_james/">[33
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 07:48:26.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2aun4n/yosemite_valley_california_2048_x_1442_by_james/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Now that is a trail. Mountain Loop Highway, Washington State. [2687 X 1519]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayt04/now_that_is_a_trail_mountain_loop_highway/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayt04/now_that_is_a_trail_mountain_loop_highway/"><img
+      src="http://a.thumbs.redditmedia.com/f79cO6DDHtc0DP1n.jpg" alt="Now that is
+      a trail. Mountain Loop Highway, Washington State. [2687 X 1519]" title="Now
+      that is a trail. Mountain Loop Highway, Washington State. [2687 X 1519]" /></a>
+      </td><td> submitted by <a href="http://www.reddit.com/user/lettucelord"> lettucelord
+      </a> <br/> <a href="http://i.imgur.com/6mir1Jy.jpg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayt04/now_that_is_a_trail_mountain_loop_highway/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 12:37:41.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayt04/now_that_is_a_trail_mountain_loop_highway/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Cinque Terre, Italy [540x960]
+    link: http://www.reddit.com/r/EarthPorn/comments/2az62i/cinque_terre_italy_540x960/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2az62i/cinque_terre_italy_540x960/"><img
+      src="http://a.thumbs.redditmedia.com/NmKsIWKlkm8DtFx8.jpg" alt="Cinque Terre,
+      Italy [540x960]" title="Cinque Terre, Italy [540x960]" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/_redheadredemption_"> _redheadredemption_
+      </a> <br/> <a href="http://imgur.com/rRbHiE6">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2az62i/cinque_terre_italy_540x960/">[5
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 14:36:56.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2az62i/cinque_terre_italy_540x960/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Yellowstone Canyon [OC] [1500x1000] by Dylan Ozanich
+    link: http://www.reddit.com/r/EarthPorn/comments/2azk9c/yellowstone_canyon_oc_1500x1000_by_dylan_ozanich/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azk9c/yellowstone_canyon_oc_1500x1000_by_dylan_ozanich/"><img
+      src="http://b.thumbs.redditmedia.com/QUsY8bNdfbMnQl05.jpg" alt="Yellowstone
+      Canyon [OC] [1500x1000] by Dylan Ozanich" title="Yellowstone Canyon [OC] [1500x1000]
+      by Dylan Ozanich" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/pajama_hat">
+      pajama_hat </a> <br/> <a href="http://imgur.com/GYTY0st">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2azk9c/yellowstone_canyon_oc_1500x1000_by_dylan_ozanich/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 16:45:29.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azk9c/yellowstone_canyon_oc_1500x1000_by_dylan_ozanich/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Poppy field on the Lambourn Downs, England (OC) [1024x683].
+    link: http://www.reddit.com/r/EarthPorn/comments/2ay5w9/poppy_field_on_the_lambourn_downs_england_oc/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ay5w9/poppy_field_on_the_lambourn_downs_england_oc/"><img
+      src="http://b.thumbs.redditmedia.com/epY8fRZcfgsMH3uC.jpg" alt="Poppy field
+      on the Lambourn Downs, England (OC) [1024x683]." title="Poppy field on the Lambourn
+      Downs, England (OC) [1024x683]." /></a> </td><td> submitted by <a href="http://www.reddit.com/user/snowyturner">
+      snowyturner </a> <br/> <a href="https://www.flickr.com/photos/snowyturner/10774417006/in/photostream">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2ay5w9/poppy_field_on_the_lambourn_downs_england_oc/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 08:29:48.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ay5w9/poppy_field_on_the_lambourn_downs_england_oc/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Jewel Lake, Utah [960x637]. When you turn your head, you can see the Old
+      Jewel Keeper.
+    link: http://www.reddit.com/r/EarthPorn/comments/2az1e0/jewel_lake_utah_960x637_when_you_turn_your_head/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2az1e0/jewel_lake_utah_960x637_when_you_turn_your_head/"><img
+      src="http://a.thumbs.redditmedia.com/d0rbISMEuXFCO5Rt.jpg" alt="Jewel Lake,
+      Utah [960x637]. When you turn your head, you can see the Old Jewel Keeper."
+      title="Jewel Lake, Utah [960x637]. When you turn your head, you can see the
+      Old Jewel Keeper." /></a> </td><td> submitted by <a href="http://www.reddit.com/user/alexinedh">
+      alexinedh </a> <br/> <a href="http://i.imgur.com/0YYlSSQ.jpg">[link]</a> <a
+      href="http://www.reddit.com/r/EarthPorn/comments/2az1e0/jewel_lake_utah_960x637_when_you_turn_your_head/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 13:53:36.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2az1e0/jewel_lake_utah_960x637_when_you_turn_your_head/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Silver Creek at Dusk - Picabo, Idaho [OC] [2399x1620]
+    link: http://www.reddit.com/r/EarthPorn/comments/2azfqf/silver_creek_at_dusk_picabo_idaho_oc_2399x1620/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azfqf/silver_creek_at_dusk_picabo_idaho_oc_2399x1620/"><img
+      src="http://a.thumbs.redditmedia.com/tQNjtI3iXOBtUHB2.jpg" alt="Silver Creek
+      at Dusk - Picabo, Idaho [OC] [2399x1620]" title="Silver Creek at Dusk - Picabo,
+      Idaho [OC] [2399x1620]" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/CarneDeWad">
+      CarneDeWad </a> <br/> <a href="http://i.imgur.com/sWhrRRx.jpg">[link]</a> <a
+      href="http://www.reddit.com/r/EarthPorn/comments/2azfqf/silver_creek_at_dusk_picabo_idaho_oc_2399x1620/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 16:04:48.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azfqf/silver_creek_at_dusk_picabo_idaho_oc_2399x1620/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Glencoe, Scotland [3508 x 2271]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayvfm/glencoe_scotland_3508_x_2271/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayvfm/glencoe_scotland_3508_x_2271/"><img
+      src="http://a.thumbs.redditmedia.com/O3pNMrt38GpnTfXj.jpg" alt="Glencoe, Scotland
+      [3508 x 2271]" title="Glencoe, Scotland [3508 x 2271]" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/StevenH463"> StevenH463 </a> <br/> <a
+      href="http://imgur.com/6COXHIg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayvfm/glencoe_scotland_3508_x_2271/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 13:01:00.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayvfm/glencoe_scotland_3508_x_2271/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Clouds coming in over a glacier in Iceland [7472x2470] [OC] [Panorama]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayqcp/clouds_coming_in_over_a_glacier_in_iceland/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayqcp/clouds_coming_in_over_a_glacier_in_iceland/"><img
+      src="http://b.thumbs.redditmedia.com/kctSQpSBmhho3sQ3.jpg" alt="Clouds coming
+      in over a glacier in Iceland [7472x2470] [OC] [Panorama]" title="Clouds coming
+      in over a glacier in Iceland [7472x2470] [OC] [Panorama]" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/ColdFire86"> ColdFire86 </a> <br/> <a
+      href="http://imgur.com/HoahBmb">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayqcp/clouds_coming_in_over_a_glacier_in_iceland/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 12:12:23.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayqcp/clouds_coming_in_over_a_glacier_in_iceland/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Walking down from Col Du Malatra, Italy this beautiful valley caught my
+      eye. [OC] [4000x2248]
+    link: http://www.reddit.com/r/EarthPorn/comments/2aujnm/walking_down_from_col_du_malatra_italy_this/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2aujnm/walking_down_from_col_du_malatra_italy_this/"><img
+      src="http://b.thumbs.redditmedia.com/L2W9IrJd2I927j6K.jpg" alt="Walking down
+      from Col Du Malatra, Italy this beautiful valley caught my eye. [OC] [4000x2248]"
+      title="Walking down from Col Du Malatra, Italy this beautiful valley caught
+      my eye. [OC] [4000x2248]" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/SillessOne">
+      SillessOne </a> <br/> <a href="http://imgur.com/kMwNte7">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2aujnm/walking_down_from_col_du_malatra_italy_this/">[23
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 06:46:10.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2aujnm/walking_down_from_col_du_malatra_italy_this/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: The Matterhorn in July - Zermatt, Switzerland [12227 × 4233] [OC]
+    link: http://www.reddit.com/r/EarthPorn/comments/2azm52/the_matterhorn_in_july_zermatt_switzerland_12227/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azm52/the_matterhorn_in_july_zermatt_switzerland_12227/"><img
+      src="http://b.thumbs.redditmedia.com/R7gH_jQsWXJRuUdi.jpg" alt="The Matterhorn
+      in July - Zermatt, Switzerland [12227 × 4233] [OC]" title="The Matterhorn in
+      July - Zermatt, Switzerland [12227 × 4233] [OC]" /></a> </td><td> submitted
+      by <a href="http://www.reddit.com/user/rockwaffles"> rockwaffles </a> <br/>
+      <a href="https://www.flickr.com/photos/fastarmaan/14675899491">[link]</a> <a
+      href="http://www.reddit.com/r/EarthPorn/comments/2azm52/the_matterhorn_in_july_zermatt_switzerland_12227/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 17:03:05.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azm52/the_matterhorn_in_july_zermatt_switzerland_12227/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Ocean Beach, San Francisco [OC] [1500 x 1000] by Dylan Ozanich
+    link: http://www.reddit.com/r/EarthPorn/comments/2az0ua/ocean_beach_san_francisco_oc_1500_x_1000_by_dylan/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2az0ua/ocean_beach_san_francisco_oc_1500_x_1000_by_dylan/"><img
+      src="http://a.thumbs.redditmedia.com/WUVAD2mr5rGNChY4.jpg" alt="Ocean Beach,
+      San Francisco [OC] [1500 x 1000] by Dylan Ozanich" title="Ocean Beach, San Francisco
+      [OC] [1500 x 1000] by Dylan Ozanich" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/pajama_hat">
+      pajama_hat </a> <br/> <a href="http://imgur.com/OERLqF0">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2az0ua/ocean_beach_san_francisco_oc_1500_x_1000_by_dylan/">[2
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 13:48:32.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2az0ua/ocean_beach_san_francisco_oc_1500_x_1000_by_dylan/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Yosemite Valley - took this with my phone atop Yosemite Falls [3200x2368]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ax9jx/yosemite_valley_took_this_with_my_phone_atop/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ax9jx/yosemite_valley_took_this_with_my_phone_atop/"><img
+      src="http://b.thumbs.redditmedia.com/OChnrKyfsgaPhzsk.jpg" alt="Yosemite Valley
+      - took this with my phone atop Yosemite Falls [3200x2368]" title="Yosemite Valley
+      - took this with my phone atop Yosemite Falls [3200x2368]" /></a> </td><td>
+      submitted by <a href="http://www.reddit.com/user/SensualSchmoozer"> SensualSchmoozer
+      </a> <br/> <a href="http://i.imgur.com/7USPRoG.jpg">[link]</a> <a href="http://www.reddit.com/r/EarthPorn/comments/2ax9jx/yosemite_valley_took_this_with_my_phone_atop/">[2
+      comments]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-16 23:42:11.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ax9jx/yosemite_valley_took_this_with_my_phone_atop/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Sunset at Deception Pass State Park [OC][1024x819]
+    link: http://www.reddit.com/r/EarthPorn/comments/2ayz3p/sunset_at_deception_pass_state_park_oc1024x819/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2ayz3p/sunset_at_deception_pass_state_park_oc1024x819/"><img
+      src="http://a.thumbs.redditmedia.com/MqmZdIYkeTFuduAH.jpg" alt="Sunset at Deception
+      Pass State Park [OC][1024x819]" title="Sunset at Deception Pass State Park [OC][1024x819]"
+      /></a> </td><td> submitted by <a href="http://www.reddit.com/user/brianhiltz">
+      brianhiltz </a> <br/> <a href="http://ppcdn.500px.org/76889727/3d490abbfb02cd2f924ecebe037c258c963fb932/5.jpg">[link]</a>
+      <a href="http://www.reddit.com/r/EarthPorn/comments/2ayz3p/sunset_at_deception_pass_state_park_oc1024x819/">[1
+      comment]</a> </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 13:33:42.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2ayz3p/sunset_at_deception_pass_state_park_oc1024x819/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  - !ruby/object:RSS::Rss::Channel::Item
+    parent: 
+    converter: 
+    do_validate: true
+    title: Tidepool in San Pedro, CA [1528x1019] [OC]
+    link: http://www.reddit.com/r/EarthPorn/comments/2azflu/tidepool_in_san_pedro_ca_1528x1019_oc/
+    description: <table> <tr><td> <a href="http://www.reddit.com/r/EarthPorn/comments/2azflu/tidepool_in_san_pedro_ca_1528x1019_oc/"><img
+      src="http://a.thumbs.redditmedia.com/_VYV2-UhKIgAeTEj.jpg" alt="Tidepool in
+      San Pedro, CA [1528x1019] [OC]" title="Tidepool in San Pedro, CA [1528x1019]
+      [OC]" /></a> </td><td> submitted by <a href="http://www.reddit.com/user/RHPhotoGuy">
+      RHPhotoGuy </a> <br/> <a href="http://i.imgur.com/2hW6bco.jpg">[link]</a> <a
+      href="http://www.reddit.com/r/EarthPorn/comments/2azflu/tidepool_in_san_pedro_ca_1528x1019_oc/">[comment]</a>
+      </td></tr></table>
+    source: 
+    enclosure: 
+    comments: 
+    author: 
+    pubDate: 2014-07-17 16:03:45.000000000 -04:00
+    guid: !ruby/object:RSS::Rss::Channel::Item::Guid
+      parent: 
+      converter: 
+      do_validate: true
+      isPermaLink: true
+      content: http://www.reddit.com/r/EarthPorn/comments/2azflu/tidepool_in_san_pedro_ca_1528x1019_oc/
+    content_encoded: 
+    itunes_author: 
+    itunes_block: 
+    itunes_explicit: 
+    itunes_keywords: 
+    itunes_subtitle: 
+    itunes_summary: 
+    itunes_name: 
+    itunes_email: 
+    itunes_duration: 
+    trackback_ping: 
+    category: []
+    dc_title: []
+    dc_description: []
+    dc_creator: []
+    dc_subject: []
+    dc_publisher: []
+    dc_contributor: []
+    dc_type: []
+    dc_format: []
+    dc_identifier: []
+    dc_source: []
+    dc_language: []
+    dc_relation: []
+    dc_coverage: []
+    dc_rights: []
+    dc_date: []
+    trackback_about: []
+  category: []
+  dc_title: []
+  dc_description: []
+  dc_creator: []
+  dc_subject: []
+  dc_publisher: []
+  dc_contributor: []
+  dc_type: []
+  dc_format: []
+  dc_identifier: []
+  dc_source: []
+  dc_language: []
+  dc_relation: []
+  dc_coverage: []
+  dc_rights: []
+  dc_date: []
+  itunes_category: []
+xml_stylesheets: []
+feed_type: rss
+feed_subtype: 
+feed_version: '2.0'
+version: '1.0'
+encoding: UTF-8
+standalone: false
+output_encoding: 
