@@ -88,8 +88,21 @@ describe Utils do
   end
 
   describe Utils, '#download_resource' do
+    before(:all) do
+      @uri = 'http://www.example.com/foobar/me.bla.jpg'
+      @target = '/home/blarg/images'
+    end
+
+    before(:each) do
+      @infile = instance_double('File')
+      allow(@infile).to receive(:read)
+      @outfile = instance_double('File')
+      allow(@outfile).to receive(:write)
+      allow(Utils).to receive(:open).with(anything(), 'wb').and_yield(@outfile)
+      allow(Utils).to receive(:open).with(@uri).and_yield(@infile)
+    end
+
     it "downloads the file at the given path"
-    it "determines the filetype of the resource by its extension"
     it "uses filetype magic to do the detect if the extension is nonexistent"
     it "takes no action on text files, if the process_text arg is false"
   end

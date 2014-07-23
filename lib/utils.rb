@@ -1,3 +1,11 @@
+require 'uri'
+require 'open-uri'
+require 'securerandom'
+
+EXT_MAP = {
+  'svg+xml': 'svg'
+}
+
 module Utils
   def Utils.load_hash_from_list(path)
     h = {}
@@ -41,7 +49,32 @@ module Utils
     return false
   end
 
-  def Utils.download_resource(uri)
+  def Utils.download_resource(uri, target_dir)
+    begin
+      tempdir = %x(mktemp -d feedr.XXX).chomp
+      uname = URI(uri).path.split('/').last
+      path = File.join(tempdir, uname)
+      open(uri) { |infile| open(path, 'wb') { |outfile| outfile.write(infile.read) } }
+      type = %x(file --mime -b #{path}).split(';').first
+      klass, ext = type.split('/')
+      if klass != 'image'
+        return
+      end
 
+      if not ext
+        return
+      end
+
+      target_name = SecureRandom.urlsafe_base64(5) + '.' + EXT_MAP.fetch(ext, ext)
+      target_path = File.join(target_dir, target_name)
+
+      cp path, target_path
+      
+      return target_name
+    ensure
+      if tempdir
+        rm_r [tempdir]
+      end
+    end
   end
 end
