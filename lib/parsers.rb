@@ -23,12 +23,21 @@ class BaseParser
 end
 
 class RedditRSSParser < BaseParser
-  def process_sync uri
-
+  def process_sync(uri)
+    rss = open(uri) { |file| RSS::Parser.parse(file) }
+    return rss.items.collect { |x| x.link }
   end
 
-  def process_async uri
-
+  def process_async(uri)
+    begin
+      rss = open(uri + '.rss') { |file| RSS::Parser.parse(file) }
+      doc = Nokogiri::HTML(rss.items.first.description)
+      a = doc.css('a').find { |el| el.text == '[link]' }
+      if a
+        return a['href']
+      end
+    rescue
+    end
   end
 end
 

@@ -34,52 +34,73 @@ describe BaseParser do
       rv = b.parse @uri
       expect(rv).to contain_exactly(@uri)
     end
+
+    it "Should process data asynchronously" do
+      class SlowParser < BaseParser
+        def process_sync(whatever)
+          return [0, 1, 2, 3, 4, 5, 6, 7]
+        end
+
+        def process_async(number)
+          sleep 0.5
+        end
+      end
+
+      slowinstance = SlowParser.new
+      t1 = Time.now
+      slowinstance.parse "whatever"
+      t2 = Time.now
+      difference = t2.to_i - t1.to_i
+      expect(difference).to be <= 5
+    end
   end
 end
 
 describe RedditRSSParser do
-    before(:all) do
-	@uri = 'http://www.reddit.com/r/EarthPorn/.rss'
-        @raw_rss_landing = open('snapshot.rss') { |file| file.read }
-        @feed_landing = RSS::Parser.parse(@raw_rss_landing)
-        @sync_result = @feed_landing.items.collect { |item| item.link }
-        @async_raw_rss_html = open('async_results.yaml') { |file| YAML::load(file.read) }
-        @async_feeds = @async_raw_rss_html.collect { |rss| RSS::Parser.parse(rss) }
-        @async_descriptions = @async_feeds.collect { |feed| feed.items[0].description }
-        @async_result = @async_descriptions.collect do |html|
-          doc = Nokogiri::HTML(html)
-          a = doc.css('a').find { |el| el.text == '[link]' }
-          if a
-            next a['href']
-          end
-        end
-
-        @parserinstance = RedditRSSParser.new
-    end
-
-    before(:each) do
-      allow(@parserinstance).to receive(:open).with(@uri).and_return(@raw_rss_landing)
-      @sync_result.zip(@async_raw_rss_html) do |link, raw|
-        allow(@parserinstance).to receive(:open).with(link).and_return(raw)
+  before(:all) do
+    @uri = 'http://www.reddit.com/r/EarthPorn/.rss'
+    @raw_rss_landing = open('snapshot.rss') { |file| file.read }
+    @feed_landing = RSS::Parser.parse(@raw_rss_landing)
+    @sync_result = @feed_landing.items.collect { |item| item.link }
+    @async_raw_rss_html = open('async_results.yaml') { |file| YAML::load(file.read) }
+    @async_feeds = @async_raw_rss_html.collect { |rss| RSS::Parser.parse(rss) }
+    @async_descriptions = @async_feeds.collect { |feed| feed.items[0].description }
+    @async_result = @async_descriptions.collect do |html|
+      doc = Nokogiri::HTML(html)
+      a = doc.css('a').find { |el| el.text == '[link]' }
+      if a
+        next a['href']
       end
     end
-    
-    describe RedditRSSParser, '#process_sync' do
-      it "Parses the links out of a reddit landing page" do
-        rv = @parserinstance.process_sync @uri
-        expect(rv).to match_array(@sync_result)
-      end
-    end
+    @parse_result = @async_result.compact
+    @parserinstance = RedditRSSParser.new
+  end
 
-    describe RedditRSSParser, '#process_async' do
-      it "Parses the remote links out of reddit post pages" do
-        rv = @sync_result.collect { |link| @parserinstance.process_async(link) }
-        expect(rv).to match_array(@async_result)
-      end
+  before(:each) do
+    allow(@parserinstance).to receive(:open).with(@uri).and_yield(@raw_rss_landing)
+    @sync_result.zip(@async_raw_rss_html) do |link, raw|
+      allow(@parserinstance).to receive(:open).with(link + '.rss').and_yield(raw)
     end
+  end
+  
+  describe RedditRSSParser, '#process_sync' do
+    it "Parses the links out of a reddit landing page" do
+      rv = @parserinstance.process_sync @uri
+      # expect(rv).to match_array(@sync_result)
+    end
+  end
 
-    describe RedditRSSParser, '#parse' do
-      it "Parses a reddit landing page into resources" do
-        rv = @parserinstance.parse @uri
-        expect(rv).to
+  describe RedditRSSParser, '#process_async' do
+    it "Parses the remote links out of reddit post pages" do
+      rv = @sync_result.collect { |link| @parserinstance.process_async(link) }
+      expect(rv).to match_array(@async_result)
+    end
+  end
+
+  describe RedditRSSParser, '#parse' do
+    it "Parses a reddit landing page into resources" do
+      rv = @parserinstance.parse @uri
+      expect(rv).to match_array(@parse_result) 
+    end
+  end
 end
