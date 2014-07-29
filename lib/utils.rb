@@ -3,7 +3,7 @@ require 'open-uri'
 require 'securerandom'
 
 EXT_MAP = {
-  'svg+xml': 'svg'
+  'svg+xml' => 'svg'
 }
 
 module Utils
@@ -49,14 +49,22 @@ module Utils
     return false
   end
 
+  def Utils.make_temp_dir
+    return %x(mktemp -d feedr.XXX).chomp
+  end
+
+  def Utils.get_mime_type(path)
+    return %x(file --mime -b #{path}).split(';').first
+  end
+
   def Utils.download_resource(uri, target_dir)
     begin
-      tempdir = %x(mktemp -d feedr.XXX).chomp
+      tempdir = Utils.make_temp_dir
       uname = URI(uri).path.split('/').last
-      path = File.join(tempdir, uname)
+      path = File.join tempdir, uname 
       open(uri) { |infile| open(path, 'wb') { |outfile| outfile.write(infile.read) } }
-      type = %x(file --mime -b #{path}).split(';').first
-      klass, ext = type.split('/')
+      type = Utils.get_mime_type path 
+      klass, ext = type.split '/' 
       if klass != 'image'
         return
       end
@@ -66,14 +74,16 @@ module Utils
       end
 
       target_name = SecureRandom.urlsafe_base64(5) + '.' + EXT_MAP.fetch(ext, ext)
-      target_path = File.join(target_dir, target_name)
+      target_path = File.join target_dir, target_name 
 
-      cp path, target_path
+      FileUtils.cp path, target_path
       
       return target_name
+    rescue Exception
+      return nil
     ensure
       if tempdir
-        rm_r [tempdir]
+        FileUtils.rm_r [tempdir]
       end
     end
   end

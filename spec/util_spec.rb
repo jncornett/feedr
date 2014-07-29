@@ -89,21 +89,44 @@ describe Utils do
 
   describe Utils, '#download_resource' do
     before(:all) do
-      @uri = 'http://www.example.com/foobar/me.bla.jpg'
-      @target = '/home/blarg/images'
+      @uri_labelled = 'http://www.example.com/media/an_image.png'
+      @uri_unlabelled = 'http://www.example.com/media/a_cool_image/'
+      @target_dir = '/home/feedr/images'
+      @target_file_expression = /\w+\.png/
+      @tempdir_name = 'random'
+      @mime_type = 'image/png'
     end
 
     before(:each) do
-      @infile = instance_double('File')
-      allow(@infile).to receive(:read)
-      @outfile = instance_double('File')
-      allow(@outfile).to receive(:write)
-      allow(Utils).to receive(:open).with(anything(), 'wb').and_yield(@outfile)
-      allow(Utils).to receive(:open).with(@uri).and_yield(@infile)
+      @file_object = instance_double('File')
+      allow(Utils).to receive(:open).with(anything()).and_return(@file_object)
+      allow(Utils).to receive(:open).with(anything(), anything()).and_return(@file_object)
+      allow(Utils).to receive(:make_temp_dir).and_return(@tempdir_name)
+      allow(Utils).to receive(:get_mime_type).with(anything()).and_return(@mime_type)
+      allow(FileUtils).to receive(:rm_r)
+      allow(FileUtils).to receive(:cp)
     end
 
-    it "downloads the file at the given path"
-    it "uses filetype magic to do the detect if the extension is nonexistent"
-    it "takes no action on text files, if the process_text arg is false"
+    it "downloads the file at the given path and returns the pathname" do
+      rv = Utils.download_resource(@uri_labelled, @target_dir)
+      expect(rv).to match(@target_file_expression)
+    end
+
+    it "uses filetype magic to do the detect if the extension is nonexistent" do
+      allow(Utils).to receive(:get_mime_type).with(anything()).and_return(@mime_type)
+      rv = Utils.download_resource(@uri_unlabelled, @target_dir)
+      expect(rv).to match(@target_file_expression)
+    end
+
+    it "takes no action on nonimage files or files that don't download" do
+      allow(Utils).to receive(:get_mime_type).with(anything()).and_return('text/html')
+      rv = Utils.download_resource(@uri_unlabelled, @target_dir)
+      expect(rv).to be_nil
+      
+      allow(Utils).to receive(:open).with(anything()).and_raise(Exception)
+      rv = Utils.download_resource(@uri_unlabelled, @target_dir)
+      expect(rv).to be_nil
+      
+    end
   end
 end
