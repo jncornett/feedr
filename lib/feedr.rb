@@ -1,5 +1,5 @@
-require 'parsers'
-require 'utils'
+require './parsers'
+require './utils'
 
 DATA_DIR = "/usr/local/share/feedr"
 TARGET_DIR = File.join(DATA_DIR, "media")
