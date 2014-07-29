@@ -1,6 +1,7 @@
 require 'uri'
 require 'open-uri'
 require 'securerandom'
+require 'fileutils'
 
 EXT_MAP = {
   'svg+xml' => 'svg'

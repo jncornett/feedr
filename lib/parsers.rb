@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'rss'
+require 'nokogiri'
 
 class BaseParser
   def parse(uri)
